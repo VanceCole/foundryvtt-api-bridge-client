@@ -1,7 +1,7 @@
 {
-  "name": "player-token-permissions",
+  "name": "api-bridge-client",
   "version": "0.0.2",
-  "description": "A module for FoundryVTT that extends player permissions for controlling tokens",
+  "description": "API Bridge Client for FoundryVTT",
   "main": "js/main.js",
   "dependencies": {},
   "devDependencies": {
@@ -15,12 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VanceCole/player-token-permissions.git"
+    "url": "git+https://github.com/VanceCole/foundryvtt-api-bridge-client.git"
   },
   "author": "Vance Cole",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VanceCole/player-token-permissions/issues"
   },
-  "homepage": "https://github.com/VanceCole/player-token-permissions#readme"
+  "homepage": "https://github.com/VanceCole/foundryvtt-api-bridge-client"
 }
