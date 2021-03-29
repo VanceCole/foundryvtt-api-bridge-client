@@ -1,0 +1,13 @@
+{
+  "name": "api-bridge",
+  "title": "API Bridge",
+  "description": "Establishes a websocket connection to an external microservice to allow remote access to the game api.",
+  "author": "Vance Cole",
+  "version": "0.0.3",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.9",
+  "esmodules": [
+    "./js/main.js"
+  ],
+  "socket": true
+}
