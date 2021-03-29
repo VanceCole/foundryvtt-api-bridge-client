@@ -16,6 +16,9 @@ Hooks.once('init', () => {
 
 Hooks.once('ready', () => {
   if (game.settings.get('api-bridge', 'auto')) game.bridge.connect();
+  Hooks.on('createChatMessage', (msg) => {
+    game.bridge.send(msg.data);
+  });
 });
 
 function handshakeCallback() {
